@@ -51,6 +51,7 @@ include("decompose.jl")
 include("deprecated.jl")
 include("checkbounds.jl")
 include("center.jl")
+include("polygons.jl")
 
 export AABB,
        AbstractGeometry,
@@ -148,6 +149,7 @@ export AABB,
        normaltype,
        overlaps,
        origin,
+       polygon2faces,
        row,
        radius,
        setindex,

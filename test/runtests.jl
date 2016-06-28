@@ -2,6 +2,7 @@ using GeometryTypes, ColorTypes
 using FactCheck
 
 facts("GeometryTypes") do
+    include("polygons.jl")
     include("hyperrectangles.jl")
     include("faces.jl")
     include("meshes.jl")
